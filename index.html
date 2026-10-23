@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover" />
+  <title>Bosque ODS · 4.º Congreso Internacional ODS</title>
+  <meta name="description" content="4.º Congreso Internacional de Objetivos de Desarrollo Sostenible — cinco arquitecturas escondidas en un bosque, pósteres por ODS y conferencias en vivo" />
+  <meta name="theme-color" content="#0f2427" />
+  <!-- miniatura: rueda de los 17 ODS (la generan scripts/icono.mjs → npm run icono) -->
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
+  <link rel="icon" href="./favicon-32.png" sizes="32x32" type="image/png" />
+  <link rel="apple-touch-icon" href="./apple-touch-icon.png" />
+  <link rel="manifest" href="./manifest.webmanifest" />
+  <!-- vista previa al compartir el enlace -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Bosque ODS · 4.º Congreso Internacional ODS" />
+  <meta property="og:description" content="Recorre el bosque virtual del 4.º Congreso Internacional de Objetivos de Desarrollo Sostenible: 44 pósteres y conferencias en vivo." />
+  <meta property="og:image" content="./miniatura-compartir.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <!-- Identidad Bosque ODS: Sora (títulos), Figtree (texto e interfaz) y Space Grotesk (etiquetas y números) -->
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Figtree:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  
+</head>
+<body class="en-menu previa">
+  <div class="previa-fondo" aria-hidden="true"></div>
+
+  <!-- Animación de carga: chispas de los 17 ODS llegan en espiral desde los bordes y arman la rueda; mientras el
+       bosque carga, la rueda gira con 17 satélites y un aro marca el avance real. Todo con animaciones CSS (siguen
+       fluidas aunque el navegador esté ocupado construyendo el 3D) y se arma aquí mismo, antes de cargar el código. -->
+  <div id="intro" role="status" aria-label="Cargando el bosque">
+    <div class="intro-cielo" aria-hidden="true"></div>
+    <div class="intro-escena">
+      <div class="intro-rueda" aria-hidden="true">
+        <svg class="intro-progreso" viewBox="0 0 100 100"><circle cx="50" cy="50" r="47" /><circle id="intro-arco" cx="50" cy="50" r="47" /></svg>
+        <div class="intro-giro" id="intro-giro"></div>
+        <div class="intro-orbitas" id="intro-orbitas"></div>
+        <div class="intro-centro"><b>4.º</b><span>ODS</span></div>
+      </div>
+      <div class="intro-titulo">
+        <p class="intro-ante">4.º Congreso Internacional</p>
+        <h1>Objetivos de Desarrollo Sostenible</h1>
+        <p class="intro-tema">Gestión Ambiental, Territorios Resilientes y Bienestar Integral</p>
+      </div>
+      <p class="intro-texto" id="carga-texto">Sembrando el bosque…</p>
+    </div>
+    <p class="credito credito-carga">experiencia virtual hecha por <span>David Volkmar Velez</span></p>
+  </div>
+  <script>
+    (function () {
+      var C = ['#e5243b', '#dda63a', '#4c9f38', '#c5192d', '#ff3a21', '#26bde2', '#fcc30b', '#a21942', '#fd6925', '#dd1367', '#fd9d24', '#bf8b2e', '#3f7e44', '#0a97d9', '#56c02b', '#00689d', '#19486a'];
+      var giro = document.getElementById('intro-giro'), orb = document.getElementById('intro-orbitas');
+      var N = C.length, paso = 360 / N, poco = matchMedia('(max-width: 700px)').matches;
+      C.forEach(function (c, i) {
+        var a0 = i * paso, dSeg = 0.35 + i * 0.09;
+        // segmento de la rueda (aparece cuando llegan sus chispas)
+        var s = document.createElement('i');
+        s.className = 'seg';
+        s.style.background = 'conic-gradient(from ' + a0 + 'deg, ' + c + ' 0 ' + (paso - 1.6) + 'deg, transparent 0)';
+        s.style.setProperty('--d', (dSeg + 1.05) + 's');
+        giro.appendChild(s);
+        // chispas que llegan en espiral desde fuera de la pantalla
+        for (var k = 0; k < (poco ? 6 : 11); k++) {
+          var p = document.createElement('i');
+          p.className = 'chispa';
+          var ang = Math.random() * Math.PI * 2, lejos = 0.9 + Math.random() * 0.5;
+          var am = (a0 + paso * (0.15 + 0.7 * Math.random())) * Math.PI / 180, r = 0.33 + Math.random() * 0.15;
+          var giroEsp = ang + 1.6 + Math.random() * 0.8, rm = 0.75 + Math.random() * 0.3;
+          p.style.setProperty('--c', c);
+          p.style.setProperty('--x0', (Math.cos(ang) * lejos * 100).toFixed(1) + 'vmax');
+          p.style.setProperty('--y0', (Math.sin(ang) * lejos * 100).toFixed(1) + 'vmax');
+          p.style.setProperty('--xm', 'calc(var(--S) * ' + (Math.cos(giroEsp) * rm).toFixed(3) + ')');
+          p.style.setProperty('--ym', 'calc(var(--S) * ' + (Math.sin(giroEsp) * rm).toFixed(3) + ')');
+          p.style.setProperty('--x1', 'calc(var(--S) * ' + (Math.sin(am) * r).toFixed(3) + ')');
+          p.style.setProperty('--y1', 'calc(var(--S) * ' + (-Math.cos(am) * r).toFixed(3) + ')');
+          p.style.setProperty('--d', (dSeg + k * 0.035).toFixed(2) + 's');
+          p.style.setProperty('--t', (1.05 + Math.random() * 0.35).toFixed(2) + 's');
+          p.style.setProperty('--z', (5 + Math.random() * 7).toFixed(0) + 'px');
+          giro.appendChild(p);
+        }
+        // satélite en órbita (cuando la rueda ya está armada)
+        var o = document.createElement('i');
+        o.className = 'orbita';
+        o.style.setProperty('--c', c);
+        o.style.setProperty('--t', (10 + (i % 6) * 2.3) + 's');
+        o.style.setProperty('--r0', (i * 37 % 360) + 'deg');
+        o.style.setProperty('--e', (1.12 + (i % 4) * 0.07).toFixed(2));
+        orb.appendChild(o);
+      });
+      window.__introInicio = performance.now();
+    })();
+  </script>
+
+  <div id="menu-inicio" hidden role="dialog" aria-label="Menú de inicio"></div>
+
+  <script type="module" src="./previa.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+{
+  "name": "Bosque ODS · 4.º Congreso Internacional ODS",
+  "short_name": "Bosque ODS",
+  "start_url": ".",
+  "display": "fullscreen",
+  "background_color": "#0f2427",
+  "theme_color": "#0f2427",
+  "icons": [
+    {
+      "src": "icono-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icono-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
