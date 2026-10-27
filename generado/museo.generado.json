@@ -1,0 +1,1409 @@
+{
+  "generado": "2026-10-27T19:36:34.595Z",
+  "version": 7,
+  "museo": {
+    "museo": "4.º Congreso Internacional ODS",
+    "muestra": "4.º Congreso Internacional de Objetivos de Desarrollo Sostenible",
+    "edicion": 4,
+    "tema": "Gestión Ambiental, Territorios Resilientes y Bienestar Integral",
+    "bajada": "5 dimensiones · 32 pósteres · Un mirador sobre el dosel",
+    "exhibicion": {
+      "_nota": "Los pósteres se exhiben ampliados para leerlos en primera persona: tamaño real × escala, con el lado mayor entre lado_min_m y lado_max_m.",
+      "escala": 1.9,
+      "lado_min_m": 1.8,
+      "lado_max_m": 2.3
+    }
+  },
+  "lobby": {
+    "numero": "A",
+    "nombre": "Pabellón de la Maqueta",
+    "color": "#5c6670",
+    "secciones": {
+      "presentacion": "A solo cuatro años del cumplimiento de la Agenda 2030, solo el 17 % de las metas de los Objetivos de Desarrollo Sostenible avanza según lo previsto. Este congreso propone abordar los ODS no de manera aislada, sino desde un modelo territorial sistémico en el que la gestión ambiental actúa como eje articulador del desarrollo. Cinco arquitecturas escondidas en un mismo bosque: solo quien sigue los senderos descubre que todo estaba conectado.",
+      "bases": "Eje temático central: La Gestión Ambiental como Plataforma para la Transformación Territorial Sostenible. El congreso integra los ODS en cinco dimensiones estratégicas: I Bienestar Humano y Justicia Social (ODS 1, 2, 3, 4, 5, 10) · II Prosperidad Sostenible y Transformación Productiva (ODS 7, 8, 9, 12) · III Capital Natural y Acción Climática (ODS 6, 13, 14, 15) · IV Ciudades, Territorio y Gobernanza (ODS 11, 16) · V Cooperación y Aceleración (ODS 17).",
+      "jurado": "[PENDIENTE] Comité científico y evaluadores de pósteres.",
+      "organizadores": "Educación Continua · Institución Universitaria Colegio Mayor de Antioquia.",
+      "creditos": "Experiencia virtual hecha por David Volkmar Velez."
+    },
+    "pendientes": [
+      "jurado"
+    ],
+    "logos": [
+      "generado/lobby/01-colegio-mayor-de-antioquia.png",
+      "generado/lobby/02-universidad-de-antioquia-horizontal.png",
+      "generado/lobby/03-tecnologico-de-antioquia.png",
+      "generado/lobby/04-universidad-de-san-buenaventura.png",
+      "generado/lobby/05-universidad-externado-de-colombia.png",
+      "generado/lobby/06-universidad-de-sonora.png",
+      "generado/lobby/07-universidad-estatal-de-sonora.png",
+      "generado/lobby/08-instituto-tecnologico-de-sonora.png",
+      "generado/lobby/09-ciad.png"
+    ],
+    "catalogo": null,
+    "video": null
+  },
+  "salas": [
+    {
+      "id": "personas",
+      "numero": "I",
+      "nombre": "Sala I · El Gran Cobijo",
+      "nombre_corto": "El Gran Cobijo",
+      "pilar": "Personas",
+      "categoria": "Dimensión I · Personas",
+      "dimension": "Bienestar Humano y Justicia Social",
+      "ods": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        10
+      ],
+      "encontrar": "Salud, educación y bienestar bajo un mismo techo",
+      "carpeta": "1-personas",
+      "tipo": "cobijo",
+      "color": "#c8553d",
+      "texto_curatorial": "Un solo techo bajo el cual cabe todo el mundo: los seis ODS del bienestar humano moldean el espacio en lugar de repartírselo.",
+      "descripcion_categoria": "Relación entre sostenibilidad y calidad de vida: pobreza, alimentación, salud, educación, género y desigualdades.",
+      "total": 13
+    },
+    {
+      "id": "prosperidad",
+      "numero": "II",
+      "nombre": "Sala II · El Anillo Taller",
+      "nombre_corto": "El Anillo Taller",
+      "pilar": "Prosperidad",
+      "categoria": "Dimensión II · Prosperidad",
+      "dimension": "Prosperidad Sostenible y Transformación Productiva",
+      "ods": [
+        7,
+        8,
+        9,
+        12
+      ],
+      "encontrar": "Energía, industria y economía circular en un taller",
+      "carpeta": "2-prosperidad",
+      "tipo": "anillo",
+      "color": "#d9902f",
+      "texto_curatorial": "Crecer sin talar: un taller circular que rodea el bosque, se eleva sobre él y produce su propia energía.",
+      "descripcion_categoria": "Energía, empleo, infraestructura y consumo responsable como motores de una economía circular.",
+      "total": 7
+    },
+    {
+      "id": "planeta",
+      "numero": "III",
+      "nombre": "Sala III · La Cuenca Habitada",
+      "nombre_corto": "La Cuenca Habitada",
+      "pilar": "Planeta",
+      "categoria": "Dimensión III · Planeta",
+      "dimension": "Capital Natural y Acción Climática",
+      "ods": [
+        6,
+        13,
+        14,
+        15
+      ],
+      "encontrar": "Agua, clima y ecosistemas: se baja hasta la laguna",
+      "carpeta": "3-planeta",
+      "tipo": "cuenca",
+      "color": "#3f7e44",
+      "texto_curatorial": "No se entra a la Cuenca: uno se da cuenta de que ya está en ella. Del bosque al mar, bajo una nube que es termómetro del clima.",
+      "descripcion_categoria": "Agua, clima, océanos y ecosistemas terrestres: la cuenca como unidad de gestión del territorio.",
+      "total": 8
+    },
+    {
+      "id": "paz",
+      "numero": "IV",
+      "nombre": "Sala IV · El Claro Cívico",
+      "nombre_corto": "El Claro Cívico",
+      "pilar": "Paz",
+      "categoria": "Dimensión IV · Paz",
+      "dimension": "Ciudades, Territorio y Gobernanza",
+      "ods": [
+        11,
+        16
+      ],
+      "encontrar": "Ciudades y gobernanza en un ágora abierta",
+      "carpeta": "4-paz",
+      "tipo": "claro",
+      "color": "#00689d",
+      "texto_curatorial": "Ninguna columna sostiene sola la cubierta: así se ve una institución legítima. Todo está a la vista.",
+      "descripcion_categoria": "Ciudades sostenibles, gobernanza participativa, transparencia y planificación con legitimidad social.",
+      "total": 4
+    },
+    {
+      "id": "alianzas",
+      "numero": "V",
+      "nombre": "Sala V · La Torre de los Hilos",
+      "nombre_corto": "La Torre de los Hilos",
+      "pilar": "Alianzas",
+      "categoria": "Dimensión V · Alianzas",
+      "dimension": "Cooperación y Aceleración",
+      "ods": [
+        17
+      ],
+      "encontrar": "La escultura de las universidades aliadas · arriba, el Mirador de la Corona",
+      "carpeta": "5-alianzas",
+      "tipo": "torre",
+      "color": "#19486a",
+      "texto_curatorial": "Esta dimensión no recibió ponencias. Ese vacío es el dato: la torre se sostiene en las universidades que tejen la alianza del congreso, y crece cada vez que alguien se suma.",
+      "descripcion_categoria": "Cooperación academia–Estado–empresa, financiamiento climático y redes internacionales.",
+      "total": 0
+    }
+  ],
+  "corona": {
+    "numero": "",
+    "nombre": "Mirador de la Corona",
+    "nombre_corto": "La Corona",
+    "color": "#6a4c93",
+    "descripcion": "Mirador suspendido sobre la Torre de los Hilos: el bosque entero a la vista, a 34 m sobre el dosel."
+  },
+  "ods": {
+    "1": {
+      "nombre": "Fin de la pobreza",
+      "color": "#e5243b"
+    },
+    "2": {
+      "nombre": "Hambre cero",
+      "color": "#dda63a"
+    },
+    "3": {
+      "nombre": "Salud y bienestar",
+      "color": "#4c9f38"
+    },
+    "4": {
+      "nombre": "Educación de calidad",
+      "color": "#c5192d"
+    },
+    "5": {
+      "nombre": "Igualdad de género",
+      "color": "#ff3a21"
+    },
+    "6": {
+      "nombre": "Agua limpia y saneamiento",
+      "color": "#26bde2"
+    },
+    "7": {
+      "nombre": "Energía asequible y no contaminante",
+      "color": "#fcc30b"
+    },
+    "8": {
+      "nombre": "Trabajo decente y crecimiento económico",
+      "color": "#a21942"
+    },
+    "9": {
+      "nombre": "Industria, innovación e infraestructura",
+      "color": "#fd6925"
+    },
+    "10": {
+      "nombre": "Reducción de las desigualdades",
+      "color": "#dd1367"
+    },
+    "11": {
+      "nombre": "Ciudades y comunidades sostenibles",
+      "color": "#fd9d24"
+    },
+    "12": {
+      "nombre": "Producción y consumo responsables",
+      "color": "#bf8b2e"
+    },
+    "13": {
+      "nombre": "Acción por el clima",
+      "color": "#3f7e44"
+    },
+    "14": {
+      "nombre": "Vida submarina",
+      "color": "#0a97d9"
+    },
+    "15": {
+      "nombre": "Vida de ecosistemas terrestres",
+      "color": "#56c02b"
+    },
+    "16": {
+      "nombre": "Paz, justicia e instituciones sólidas",
+      "color": "#00689d"
+    },
+    "17": {
+      "nombre": "Alianzas para lograr los objetivos",
+      "color": "#19486a"
+    }
+  },
+  "convocatoria": {
+    "_nota": "Datos tomados de la página oficial del congreso.",
+    "institucion": "Institución Universitaria Colegio Mayor de Antioquia",
+    "organizadores": "Educación Continua · Colegio Mayor de Antioquia",
+    "eje": "La Gestión Ambiental como Plataforma para la Transformación Territorial Sostenible",
+    "modalidad": "Mixta: conferencias magistrales (presencial y virtual), ponencias orales, pósteres virtuales, workshop y curso-taller precongreso.",
+    "formato_obra": {
+      "ancho_cm": 100,
+      "alto_cm": 100,
+      "nota": "Póster cuadrado según la plantilla oficial definitiva (los originales llegan en 3298 × 3298 px)."
+    },
+    "calendario": [
+      {
+        "fecha": "Hasta el 15 de septiembre de 2026",
+        "evento": "Postulación de resúmenes y pósteres"
+      },
+      {
+        "fecha": "26 y 27",
+        "evento": "Precongreso · XVI Seminario Internacional: La sostenibilidad, un punto de encuentro"
+      },
+      {
+        "fecha": "28 al 30",
+        "evento": "4.º Congreso Internacional de Objetivos de Desarrollo Sostenible"
+      }
+    ],
+    "correo": "educacioncontinua@colmayor.edu.co",
+    "pagina": "https://www.colmayor.edu.co/educacion-continua/cuarto-congreso-internacional-objetivos-de-desarrollo-sostenible-gestion-ambiental-territorios-resilientes-y-bienestar-integral/"
+  },
+  "atlas": {
+    "src": "generado/atlas.webp",
+    "celda": 128,
+    "cols": 10,
+    "filas": 4
+  },
+  "obras": [
+    {
+      "id": "ODS1.1",
+      "sala": "personas",
+      "ods": null,
+      "titulo": "Proceso lector y memoria de trabajo en estudiantes TDAH, una mirada al neurodesarrollo infantil en contextos educativos diversos de Cartagena",
+      "autor": "Nelly Revollo-Carrillo",
+      "institucion": "Universidad de San Buenaventura Seccional Cartagena",
+      "anio": "2026",
+      "ancho_cm": null,
+      "alto_cm": null,
+      "descripcion": "",
+      "audio": "generado/audio/ODS1.1.mp3",
+      "modalidad": "Póster virtual",
+      "premio": "",
+      "placeholder": false,
+      "px_ancho": 1650,
+      "px_alto": 1275,
+      "paleta": [
+        "#ffffff",
+        "#ced2ce",
+        "#e2e3e2",
+        "#f2f3f2",
+        "#86be7e"
+      ],
+      "img": {
+        "thumb": "generado/obras/512/ODS1.1.webp",
+        "full": "generado/obras/2048/ODS1.1.webp",
+        "zoom": "generado/obras/4096/ODS1.1.webp"
+      },
+      "ancho_m": 1,
+      "alto_m": 0.773,
+      "medidas_pendientes": true,
+      "audio_duracion": 827,
+      "atlas": 0
+    },
+    {
+      "id": "ODS1.2",
+      "sala": "personas",
+      "ods": null,
+      "titulo": "Moviendo vidas: actividad física y autocuidado para un envejecimiento saludable",
+      "autor": "Keily Catherine Puerta-Mateus, Hidis Alfaro-Ponce, Linda Milagro Martinez-Diaz, Diana Milena Diaz-Vidal, Favian Silgado Garrido, Alba Taborda Pérez, Luis Batista Orozco",
+      "institucion": "Universidad de San Buenaventura Cartagena · Colombia",
+      "anio": "2026",
+      "ancho_cm": null,
+      "alto_cm": null,
+      "descripcion": "",
+      "audio": "generado/audio/ODS1.2.mp3",
+      "modalidad": "Póster virtual",
+      "premio": "",
+      "placeholder": false,
+      "px_ancho": 5906,
+      "px_alto": 5906,
+      "paleta": [
+        "#fefefe",
+        "#dfe0de",
+        "#f0f1f0",
+        "#6e9f61",
+        "#bfccbb"
+      ],
+      "img": {
+        "thumb": "generado/obras/512/ODS1.2.webp",
+        "full": "generado/obras/2048/ODS1.2.webp",
+        "zoom": "generado/obras/4096/ODS1.2.webp"
+      },
+      "ancho_m": 1,
+      "alto_m": 1,
+      "medidas_pendientes": true,
+      "audio_duracion": 389,
+      "atlas": 1
+    },
+    {
+      "id": "ODS1.3",
+      "sala": "personas",
+      "ods": null,
+      "titulo": "Estudio de impacto de los proyectos implementados en la Tecnología en Gestión Ambiental en comunidades afectadas por el conflicto, caso de estudio El Prodigio corregimiento de San Luis, Antioquia",
+      "autor": "Arboleda-López Natalia, Anchila-Arteaga Andrea, Quintero-Garcia Kelly",
+      "institucion": "Institución Universitaria Colegio Mayor de Antioquia · Colombia",
+      "anio": "2026",
+      "ancho_cm": null,
+      "alto_cm": null,
+      "descripcion": "",
+      "audio": "generado/audio/ODS1.3.mp3",
+      "modalidad": "Póster virtual",
+      "premio": "",
+      "placeholder": false,
+      "px_ancho": 5906,
+      "px_alto": 5906,
+      "paleta": [
+        "#fffffe",
+        "#dfe2df",
+        "#f1f2f0",
+        "#bcd4b4",
+        "#789970"
+      ],
+      "img": {
+        "thumb": "generado/obras/512/ODS1.3.webp",
+        "full": "generado/obras/2048/ODS1.3.webp",
+        "zoom": "generado/obras/4096/ODS1.3.webp"
+      },
+      "ancho_m": 1,
+      "alto_m": 1,
+      "medidas_pendientes": true,
+      "audio_duracion": 567,
+      "atlas": 2
+    },
+    {
+      "id": "ODS1.6",
+      "sala": "personas",
+      "ods": null,
+      "titulo": "Fortalecimiento del bienestar integral del adulto mayor basado en estrategias interdisciplinarias de autocuidado espiritual, salud cognitiva y actividad física",
+      "autor": "Jorge Barrios Fajardo, Linda Martinez Diaz",
+      "institucion": "Universidad de San Buenaventura Cartagena · Colombia",
+      "anio": "2026",
+      "ancho_cm": null,
+      "alto_cm": null,
+      "descripcion": "",
+      "audio": "generado/audio/ODS1.6.mp3",
+      "modalidad": "Póster virtual",
+      "premio": "",
+      "placeholder": false,
+      "px_ancho": 5906,
+      "px_alto": 5906,
+      "paleta": [
+        "#fefefe",
+        "#dee0dd",
+        "#eff0ef",
+        "#6ea266",
+        "#bbc7b9"
+      ],
+      "img": {
+        "thumb": "generado/obras/512/ODS1.6.webp",
+        "full": "generado/obras/2048/ODS1.6.webp",
+        "zoom": "generado/obras/4096/ODS1.6.webp"
+      },
+      "ancho_m": 1,
+      "alto_m": 1,
+      "medidas_pendientes": true,
+      "audio_duracion": 289,
+      "atlas": 3
+    },
+    {
+      "id": "ODS1.12",
+      "sala": "personas",
+      "ods": null,
+      "titulo": "Determinantes sociales de la salud en la primera infancia: aportes a los objetivos de desarrollo sostenible en Cartagena",
+      "autor": "Helmer Rojas-Vizcaíno, Stephanie Urrego-Correa",
+      "institucion": "Universidad de San Buenaventura · Cartagena · Colombia",
+      "anio": "2026",
+      "ancho_cm": null,
+      "alto_cm": null,
+      "descripcion": "",
+      "audio": "generado/audio/ODS1.12.mp3",
+      "modalidad": "Póster virtual",
+      "premio": "",
+      "placeholder": false,
+      "px_ancho": 5906,
+      "px_alto": 5906,
+      "paleta": [
+        "#fefefe",
+        "#dcdfde",
+        "#c4cbc6",
+        "#f1f3f1",
+        "#69b064"
+      ],
+      "img": {
+        "thumb": "generado/obras/512/ODS1.12.webp",
+        "full": "generado/obras/2048/ODS1.12.webp",
+        "zoom": "generado/obras/4096/ODS1.12.webp"
+      },
+      "ancho_m": 1,
+      "alto_m": 1,
+      "medidas_pendientes": true,
+      "audio_duracion": 261,
+      "atlas": 4
+    },
+    {
+      "id": "ODS1.13",
+      "sala": "personas",
+      "ods": null,
+      "titulo": "Aprovechamiento de Fouquieria splendens como fuente de compuestos bioactivos para el control de Streptococcus mutans",
+      "autor": "Carolina Rodriguez-Yanez, Ariadna Thalía Bernal-Mercado, Ana Karenth Lopez-Meneses, Yaeel Isbeth Cornejo-Ramirez, David Armando Encinas-Basurto",
+      "institucion": "Universidad de Sonora",
+      "anio": "2026",
+      "ancho_cm": null,
+      "alto_cm": null,
+      "descripcion": "",
+      "audio": "generado/audio/ODS1.13.mp3",
+      "modalidad": "Póster virtual",
+      "premio": "",
+      "placeholder": false,
+      "px_ancho": 5906,
+      "px_alto": 5906,
+      "paleta": [
+        "#fefefe",
+        "#dcdfd9",
+        "#eff0ef",
+        "#bfc8bc",
+        "#71ad68"
+      ],
+      "img": {
+        "thumb": "generado/obras/512/ODS1.13.webp",
+        "full": "generado/obras/2048/ODS1.13.webp",
+        "zoom": "generado/obras/4096/ODS1.13.webp"
+      },
+      "ancho_m": 1,
+      "alto_m": 1,
+      "medidas_pendientes": true,
+      "audio_duracion": 269,
+      "atlas": 5
+    },
+    {
+      "id": "ODS1.14",
+      "sala": "personas",
+      "ods": null,
+      "titulo": "Valorización de Prosopis spp. del desierto sonorense como fuente de compuestos bioactivos con potencial antibiopelícula",
+      "autor": "Marian Denisse Corrales-Gracia, Ariadna Thalía Bernal-Mercado, Carmen María López-Saiz, Carlos Gregorio Barreras-Urbina, Rey David Iturralde-Garcia",
+      "institucion": "Universidad de Sonora",
+      "anio": "2026",
+      "ancho_cm": null,
+      "alto_cm": null,
+      "descripcion": "",
+      "audio": "generado/audio/ODS1.14.mp3",
+      "modalidad": "Póster virtual",
+      "premio": "",
+      "placeholder": false,
+      "px_ancho": 3298,
+      "px_alto": 3298,
+      "paleta": [
+        "#fefefe",
+        "#daddd9",
+        "#eff1ef",
+        "#bbcab6",
+        "#65a45f"
+      ],
+      "img": {
+        "thumb": "generado/obras/512/ODS1.14.webp",
+        "full": "generado/obras/2048/ODS1.14.webp",
+        "zoom": "generado/obras/4096/ODS1.14.webp"
+      },
+      "ancho_m": 1,
+      "alto_m": 1,
+      "medidas_pendientes": true,
+      "audio_duracion": 263,
+      "atlas": 6
+    },
+    {
+      "id": "ODS1.16",
+      "sala": "personas",
+      "ods": null,
+      "titulo": "Activos académicos latentes: un análisis del capital docente en una facultad de ciencias de la salud",
+      "autor": "Lisett Wilches-López, Jorge Gutiérrez, María Cristina Vásquez, Libeth Criado, Norman Rojas, Santiago Ramirez, Manuel Noreña",
+      "institucion": "Universidad de San Buenaventura Cartagena · Colombia",
+      "anio": "2026",
+      "ancho_cm": null,
+      "alto_cm": null,
+      "descripcion": "",
+      "audio": "generado/audio/ODS1.16.mp3",
+      "modalidad": "Póster virtual",
+      "premio": "",
+      "placeholder": false,
+      "px_ancho": 5906,
+      "px_alto": 5906,
+      "paleta": [
+        "#fefffe",
+        "#e1e7e2",
+        "#f3f5f3",
+        "#6db067",
+        "#c2d5bf"
+      ],
+      "img": {
+        "thumb": "generado/obras/512/ODS1.16.webp",
+        "full": "generado/obras/2048/ODS1.16.webp",
+        "zoom": "generado/obras/4096/ODS1.16.webp"
+      },
+      "ancho_m": 1,
+      "alto_m": 1,
+      "medidas_pendientes": true,
+      "audio_duracion": 267,
+      "atlas": 7
+    },
+    {
+      "id": "ODS1.21",
+      "sala": "personas",
+      "ods": null,
+      "titulo": "Movimiento con sentido: Sistematización de estrategias de bienestar institucional en la educación superior",
+      "autor": "Hidis Alfaro-Ponce, Manuel de Jesús González-Elles, Nully Sánchez-Castro, Day Buendía-del Río",
+      "institucion": "Universidad de San Buenaventura Cartagena · Colombia",
+      "anio": "2026",
+      "ancho_cm": null,
+      "alto_cm": null,
+      "descripcion": "",
+      "audio": "generado/audio/ODS1.21.mp3",
+      "modalidad": "Ponencia oral",
+      "premio": "",
+      "placeholder": false,
+      "px_ancho": 5906,
+      "px_alto": 5906,
+      "paleta": [
+        "#fefefe",
+        "#dcdfdb",
+        "#f1f2f0",
+        "#637d54",
+        "#a1b695"
+      ],
+      "img": {
+        "thumb": "generado/obras/512/ODS1.21.webp",
+        "full": "generado/obras/2048/ODS1.21.webp",
+        "zoom": "generado/obras/4096/ODS1.21.webp"
+      },
+      "ancho_m": 1,
+      "alto_m": 1,
+      "medidas_pendientes": true,
+      "audio_duracion": 341,
+      "atlas": 8
+    },
+    {
+      "id": "ODS1.23",
+      "sala": "personas",
+      "ods": null,
+      "titulo": "Integración y apropiación de los Objetivos de Desarrollo Sostenible en la formación universitaria",
+      "autor": "David Felix-Gurrola, Crisel Yalitze Lugo-Gil, Diana Angelica Noriega-Altamirano",
+      "institucion": "Universidad de Sonora",
+      "anio": "2026",
+      "ancho_cm": null,
+      "alto_cm": null,
+      "descripcion": "",
+      "audio": "generado/audio/ODS1.23.mp3",
+      "modalidad": "Ponencia oral",
+      "premio": "",
+      "placeholder": false,
+      "px_ancho": 5906,
+      "px_alto": 5906,
+      "paleta": [
+        "#fffffe",
+        "#d4d6d4",
+        "#e5e7e5",
+        "#f4f5f3",
+        "#a7db91"
+      ],
+      "img": {
+        "thumb": "generado/obras/512/ODS1.23.webp",
+        "full": "generado/obras/2048/ODS1.23.webp",
+        "zoom": "generado/obras/4096/ODS1.23.webp"
+      },
+      "ancho_m": 1,
+      "alto_m": 1,
+      "medidas_pendientes": true,
+      "audio_duracion": 317,
+      "atlas": 9
+    },
+    {
+      "id": "ODS1.26",
+      "sala": "personas",
+      "ods": null,
+      "titulo": "Evaluación del costo de vida y bienestar económico: el ingreso sustentable en Hermosillo, México",
+      "autor": "David Ruiz-Teros, Héctor Manuel Guzmán-Grijalva",
+      "institucion": "Universidad de Sonora",
+      "anio": "2026",
+      "ancho_cm": null,
+      "alto_cm": null,
+      "descripcion": "",
+      "audio": "generado/audio/ODS1.26.mp3",
+      "modalidad": "Ponencia oral",
+      "premio": "",
+      "placeholder": false,
+      "px_ancho": 1650,
+      "px_alto": 1275,
+      "paleta": [
+        "#ffffff",
+        "#e5e5e3",
+        "#f5f5f4",
+        "#d1dbc6",
+        "#a1bd83"
+      ],
+      "img": {
+        "thumb": "generado/obras/512/ODS1.26.webp",
+        "full": "generado/obras/2048/ODS1.26.webp",
+        "zoom": "generado/obras/4096/ODS1.26.webp"
+      },
+      "ancho_m": 1,
+      "alto_m": 0.773,
+      "medidas_pendientes": true,
+      "audio_duracion": 278,
+      "atlas": 10
+    },
+    {
+      "id": "ODS1.28",
+      "sala": "personas",
+      "ods": null,
+      "titulo": "Diseño de un módulo de bajo costo para el aprendizaje práctico de la adquisición de señales cardíacas",
+      "autor": "Hadid González-Zamudio, Luz María Márquez-Agúndez",
+      "institucion": "Universidad de Sonora",
+      "anio": "2026",
+      "ancho_cm": null,
+      "alto_cm": null,
+      "descripcion": "",
+      "audio": "generado/audio/ODS1.28.mp3",
+      "modalidad": "Póster virtual",
+      "premio": "",
+      "placeholder": false,
+      "px_ancho": 3298,
+      "px_alto": 3298,
+      "paleta": [
+        "#fefefe",
+        "#dcdfdd",
+        "#c7d0c7",
+        "#eef1ef",
+        "#6eb167"
+      ],
+      "img": {
+        "thumb": "generado/obras/512/ODS1.28.webp",
+        "full": "generado/obras/2048/ODS1.28.webp",
+        "zoom": "generado/obras/4096/ODS1.28.webp"
+      },
+      "ancho_m": 1,
+      "alto_m": 1,
+      "medidas_pendientes": true,
+      "audio_duracion": 228,
+      "atlas": 11
+    },
+    {
+      "id": "ODS1.29",
+      "sala": "personas",
+      "ods": null,
+      "titulo": "Simulador de señales cardíacas de bajo costo como herramienta educativa",
+      "autor": "Nadia Deniss Martínez-Barrios, Luz María Márquez-Agúndez",
+      "institucion": "Universidad de Sonora",
+      "anio": "2026",
+      "ancho_cm": null,
+      "alto_cm": null,
+      "descripcion": "",
+      "audio": "generado/audio/ODS1.29.mp3",
+      "modalidad": "Póster virtual",
+      "premio": "",
+      "placeholder": false,
+      "px_ancho": 1688,
+      "px_alto": 1688,
+      "paleta": [
+        "#fefefe",
+        "#c2cac1",
+        "#d7ded8",
+        "#edf2ec",
+        "#63ab5d"
+      ],
+      "img": {
+        "thumb": "generado/obras/512/ODS1.29.webp",
+        "full": "generado/obras/2048/ODS1.29.webp",
+        "zoom": "generado/obras/4096/ODS1.29.webp"
+      },
+      "ancho_m": 1,
+      "alto_m": 1,
+      "medidas_pendientes": true,
+      "audio_duracion": 279,
+      "atlas": 12
+    },
+    {
+      "id": "ODS2.2",
+      "sala": "prosperidad",
+      "ods": null,
+      "titulo": "De la biomasa residual a la energía limpia: una revisión bibliográfica sobre las aplicaciones energéticas del biocarbón",
+      "autor": "Ibarra Pérez Andrea Rossely, Ramírez Burruel Manuel Hiram, Alvarado Ibarra Juana, Burruel Ibarra Silvia Elena",
+      "institucion": "Universidad de Sonora",
+      "anio": "2026",
+      "ancho_cm": null,
+      "alto_cm": null,
+      "descripcion": "",
+      "audio": "generado/audio/ODS2.2.mp3",
+      "modalidad": "Ponencia oral",
+      "premio": "",
+      "placeholder": false,
+      "px_ancho": 5906,
+      "px_alto": 5906,
+      "paleta": [
+        "#fefefe",
+        "#dbdeda",
+        "#edefed",
+        "#b4c4af",
+        "#7ba06f"
+      ],
+      "img": {
+        "thumb": "generado/obras/512/ODS2.2.webp",
+        "full": "generado/obras/2048/ODS2.2.webp",
+        "zoom": "generado/obras/4096/ODS2.2.webp"
+      },
+      "ancho_m": 1,
+      "alto_m": 1,
+      "medidas_pendientes": true,
+      "audio_duracion": 1059,
+      "atlas": 13
+    },
+    {
+      "id": "ODS2.15",
+      "sala": "prosperidad",
+      "ods": null,
+      "titulo": "Levantamiento y análisis de sistemas de protección civil de las instalaciones HMO (zona de transmisiones de Hermosillo)",
+      "autor": "Félix Soto Carlos, Miranda Dominguez Abigail, Orci Contreras Ana, Madrid Zayas Obed",
+      "institucion": "Universidad de Sonora",
+      "anio": "2026",
+      "ancho_cm": null,
+      "alto_cm": null,
+      "descripcion": "",
+      "audio": "generado/audio/ODS2.15.mp3",
+      "modalidad": "Póster virtual",
+      "premio": "",
+      "placeholder": false,
+      "px_ancho": 5906,
+      "px_alto": 5906,
+      "paleta": [
+        "#fefefe",
+        "#d9ddd9",
+        "#eef1ed",
+        "#b6d2ad",
+        "#7ead73"
+      ],
+      "img": {
+        "thumb": "generado/obras/512/ODS2.15.webp",
+        "full": "generado/obras/2048/ODS2.15.webp",
+        "zoom": "generado/obras/4096/ODS2.15.webp"
+      },
+      "ancho_m": 1,
+      "alto_m": 1,
+      "medidas_pendientes": true,
+      "audio_duracion": 279,
+      "atlas": 14
+    },
+    {
+      "id": "ODS2.16",
+      "sala": "prosperidad",
+      "ods": null,
+      "titulo": "Valorización sostenible de residuos de Bacanora mediante extracción asistida por ultrasonido y microondas para el potencial desarrollo de nanomateriales",
+      "autor": "Ricardo Medina-Carreón, María de Jesús Moreno-Vasquez, Francisco Rodriguez-Felix, Carlos Gregorio Barreras-Urbina, Betzabe Ebenheizer López-Corona",
+      "institucion": "Universidad de Sonora",
+      "anio": "2026",
+      "ancho_cm": null,
+      "alto_cm": null,
+      "descripcion": "",
+      "audio": "generado/audio/ODS2.16.mp3",
+      "modalidad": "Póster virtual",
+      "premio": "",
+      "placeholder": false,
+      "px_ancho": 5906,
+      "px_alto": 5906,
+      "paleta": [
+        "#fefefe",
+        "#d8dcd5",
+        "#eeefed",
+        "#bac4b9",
+        "#69a064"
+      ],
+      "img": {
+        "thumb": "generado/obras/512/ODS2.16.webp",
+        "full": "generado/obras/2048/ODS2.16.webp",
+        "zoom": "generado/obras/4096/ODS2.16.webp"
+      },
+      "ancho_m": 1,
+      "alto_m": 1,
+      "medidas_pendientes": true,
+      "audio_duracion": 288,
+      "atlas": 15
+    },
+    {
+      "id": "ODS2.25",
+      "sala": "prosperidad",
+      "ods": null,
+      "titulo": "Implicaciones de los minerales de eflorescencias presentes en pasivos ambientales de la Minería Artesanal de Carbón en Sonora, México",
+      "autor": "Fernanda Guadalupe Amparano Espinoza, Alejandra Marisela Gómez Valencia, Diana María Meza Figueroa, Belem González Grijalva, Elizabeth Araux Sánchez",
+      "institucion": "Universidad de Sonora",
+      "anio": "2026",
+      "ancho_cm": null,
+      "alto_cm": null,
+      "descripcion": "",
+      "audio": "generado/audio/ODS2.25.mp3",
+      "modalidad": "Ponencia oral",
+      "premio": "",
+      "placeholder": false,
+      "px_ancho": 5906,
+      "px_alto": 5906,
+      "paleta": [
+        "#fcfbf8",
+        "#d2cec2",
+        "#e9e7e0",
+        "#b4ab8d",
+        "#66655d"
+      ],
+      "img": {
+        "thumb": "generado/obras/512/ODS2.25.webp",
+        "full": "generado/obras/2048/ODS2.25.webp",
+        "zoom": "generado/obras/4096/ODS2.25.webp"
+      },
+      "ancho_m": 1,
+      "alto_m": 1,
+      "medidas_pendientes": true,
+      "audio_duracion": 316,
+      "atlas": 16
+    },
+    {
+      "id": "ODS2.27",
+      "sala": "prosperidad",
+      "ods": null,
+      "titulo": "Alternativa experimental para la cementación sostenible de cobre en minería artesanal y la reducción de riesgos ambientales y de salud",
+      "autor": "Luz Marilyn Nuñez-Bourjac, Alejandra Marisela Gómez-Valencia, Diana María Meza-Figueroa, Belem González-Grijalva, Ana María Espinoza-Martinez, Elizabeth Araux-Sánchez",
+      "institucion": "Universidad de Sonora",
+      "anio": "2026",
+      "ancho_cm": null,
+      "alto_cm": null,
+      "descripcion": "",
+      "audio": "generado/audio/ODS2.27.mp3",
+      "modalidad": "Póster virtual",
+      "premio": "",
+      "placeholder": false,
+      "px_ancho": 5906,
+      "px_alto": 5906,
+      "paleta": [
+        "#fcfbfb",
+        "#e3e3e1",
+        "#c7c9c1",
+        "#929b81",
+        "#554e3f"
+      ],
+      "img": {
+        "thumb": "generado/obras/512/ODS2.27.webp",
+        "full": "generado/obras/2048/ODS2.27.webp",
+        "zoom": "generado/obras/4096/ODS2.27.webp"
+      },
+      "ancho_m": 1,
+      "alto_m": 1,
+      "medidas_pendientes": true,
+      "audio_duracion": 286,
+      "atlas": 17
+    },
+    {
+      "id": "ODS2.41",
+      "sala": "prosperidad",
+      "ods": null,
+      "titulo": "Innovación sostenible: el rol del clima organizacional en el cumplimiento de los ODS con enfoque de mejora continua",
+      "autor": "Viridiana Leal-Soto, Eliana Rebecca Lugo-Sanchez, Angel David Duarte-Carillo",
+      "institucion": "Universidad de Sonora",
+      "anio": "2026",
+      "ancho_cm": null,
+      "alto_cm": null,
+      "descripcion": "",
+      "audio": "generado/audio/ODS2.41.mp3",
+      "modalidad": "Póster virtual",
+      "premio": "",
+      "placeholder": false,
+      "px_ancho": 5906,
+      "px_alto": 5906,
+      "paleta": [
+        "#fefefe",
+        "#e2e4e2",
+        "#f3f4f2",
+        "#c6d9bc",
+        "#a6b073"
+      ],
+      "img": {
+        "thumb": "generado/obras/512/ODS2.41.webp",
+        "full": "generado/obras/2048/ODS2.41.webp",
+        "zoom": "generado/obras/4096/ODS2.41.webp"
+      },
+      "ancho_m": 1,
+      "alto_m": 1,
+      "medidas_pendientes": true,
+      "audio_duracion": 262,
+      "atlas": 18
+    },
+    {
+      "id": "ODS2.42",
+      "sala": "prosperidad",
+      "ods": null,
+      "titulo": "Propuesta de protocolo para evaluar la seguridad eléctrica en la conversión de una incubadora neonatal en cuna de fototerapia LED",
+      "autor": "Cynthia Martínez-Antonio, Esther Saucedo-Monarque, Luz María Marquez-Agundez, Alexia Viridiana Zazueta-Ruiz",
+      "institucion": "Universidad de Sonora",
+      "anio": "2026",
+      "ancho_cm": null,
+      "alto_cm": null,
+      "descripcion": "",
+      "audio": "generado/audio/ODS2.42.mp3",
+      "modalidad": "Póster virtual",
+      "premio": "",
+      "placeholder": false,
+      "px_ancho": 3298,
+      "px_alto": 3298,
+      "paleta": [
+        "#fefefe",
+        "#e1e4e3",
+        "#c9d0ca",
+        "#f0f3f0",
+        "#73b46c"
+      ],
+      "img": {
+        "thumb": "generado/obras/512/ODS2.42.webp",
+        "full": "generado/obras/2048/ODS2.42.webp",
+        "zoom": "generado/obras/4096/ODS2.42.webp"
+      },
+      "ancho_m": 1,
+      "alto_m": 1,
+      "medidas_pendientes": true,
+      "audio_duracion": 176,
+      "atlas": 19
+    },
+    {
+      "id": "ODS3.2",
+      "sala": "planeta",
+      "ods": null,
+      "titulo": "Biodegradación de colorantes sintéticos presentes en aguas residuales usando Microalgas",
+      "autor": "Kelly Leani Quintero, Juan Roberto Benavente, María Elena González, Diana Patricia Rodríguez",
+      "institucion": "Universidad Autónoma de Coahuila · Institución Universitaria Colegio Mayor de Antioquia",
+      "anio": "2026",
+      "ancho_cm": null,
+      "alto_cm": null,
+      "descripcion": "",
+      "audio": "generado/audio/ODS3.2.mp3",
+      "modalidad": "Póster virtual",
+      "premio": "",
+      "placeholder": false,
+      "px_ancho": 5906,
+      "px_alto": 5906,
+      "paleta": [
+        "#fefefe",
+        "#dcdddb",
+        "#f0f1f0",
+        "#bdcab7",
+        "#73ac5e"
+      ],
+      "img": {
+        "thumb": "generado/obras/512/ODS3.2.webp",
+        "full": "generado/obras/2048/ODS3.2.webp",
+        "zoom": "generado/obras/4096/ODS3.2.webp"
+      },
+      "ancho_m": 1,
+      "alto_m": 1,
+      "medidas_pendientes": true,
+      "audio_duracion": 323,
+      "atlas": 20
+    },
+    {
+      "id": "ODS3.3",
+      "sala": "planeta",
+      "ods": null,
+      "titulo": "Valoración económica socioambiental de los bienes y servicios ecosistémicos de la microcuenca La Doctora",
+      "autor": "Arboleda-López Natalia, Paez-Vidal Evelin, Estrada-Alvarez Leidy Yojana, Velez-Oviedo Maria Paula, Zapata-Tobon Maria Camila",
+      "institucion": "Institución Universitaria Colegio Mayor de Antioquia · Colombia",
+      "anio": "2026",
+      "ancho_cm": null,
+      "alto_cm": null,
+      "descripcion": "",
+      "audio": "generado/audio/ODS3.3.mp3",
+      "modalidad": "Póster virtual",
+      "premio": "",
+      "placeholder": false,
+      "px_ancho": 5906,
+      "px_alto": 5906,
+      "paleta": [
+        "#fdfefd",
+        "#d8dad7",
+        "#eef1ee",
+        "#bbc6be",
+        "#64a56d"
+      ],
+      "img": {
+        "thumb": "generado/obras/512/ODS3.3.webp",
+        "full": "generado/obras/2048/ODS3.3.webp",
+        "zoom": "generado/obras/4096/ODS3.3.webp"
+      },
+      "ancho_m": 1,
+      "alto_m": 1,
+      "medidas_pendientes": true,
+      "audio_duracion": 391,
+      "atlas": 21
+    },
+    {
+      "id": "ODS3.9",
+      "sala": "planeta",
+      "ods": null,
+      "titulo": "Estrategias de conservación del paujil de pico azul (Crax alberti) en dos áreas protegidas del Magdalena Medio colombiano",
+      "autor": "Paula Andrea Rojas-Bravo, Juan Camilo de los Ríos-Cardona, Andrea Anchila Arteaga",
+      "institucion": "Institución Universitaria Colegio Mayor de Antioquia · Colombia",
+      "anio": "2026",
+      "ancho_cm": null,
+      "alto_cm": null,
+      "descripcion": "",
+      "audio": "generado/audio/ODS3.9.mp3",
+      "modalidad": "Póster virtual",
+      "premio": "",
+      "placeholder": false,
+      "px_ancho": 5906,
+      "px_alto": 5906,
+      "paleta": [
+        "#fefefe",
+        "#d6dcd5",
+        "#eaedea",
+        "#53a256",
+        "#9ec498"
+      ],
+      "img": {
+        "thumb": "generado/obras/512/ODS3.9.webp",
+        "full": "generado/obras/2048/ODS3.9.webp",
+        "zoom": "generado/obras/4096/ODS3.9.webp"
+      },
+      "ancho_m": 1,
+      "alto_m": 1,
+      "medidas_pendientes": true,
+      "audio_duracion": 274,
+      "atlas": 22
+    },
+    {
+      "id": "ODS3.18",
+      "sala": "planeta",
+      "ods": null,
+      "titulo": "Implementación de los procesos foto-Fenton y UV/H₂O₂ para la eliminación de azitromicina desde una perspectiva de sostenibilidad ambiental",
+      "autor": "Karen E. Zapata-Martinez, Ainhoa Rubio-Clemente, Carolina Gallego-Ramírez",
+      "institucion": "Universidad de Antioquia",
+      "anio": "2026",
+      "ancho_cm": null,
+      "alto_cm": null,
+      "descripcion": "",
+      "audio": "generado/audio/ODS3.18.mp3",
+      "modalidad": "Póster virtual",
+      "premio": "",
+      "placeholder": false,
+      "px_ancho": 5906,
+      "px_alto": 5906,
+      "paleta": [
+        "#fefefe",
+        "#dde1d9",
+        "#f0f2ee",
+        "#becab7",
+        "#609b56"
+      ],
+      "img": {
+        "thumb": "generado/obras/512/ODS3.18.webp",
+        "full": "generado/obras/2048/ODS3.18.webp",
+        "zoom": "generado/obras/4096/ODS3.18.webp"
+      },
+      "ancho_m": 1,
+      "alto_m": 1,
+      "medidas_pendientes": true,
+      "audio_duracion": 210,
+      "atlas": 23
+    },
+    {
+      "id": "ODS3.21",
+      "sala": "planeta",
+      "ods": null,
+      "titulo": "Vulnerabilidad y adaptación empresarial frente al cambio climático en pequeñas empresas de Caucasia, Antioquia",
+      "autor": "Laura Sofía Montiel-Sierra, Leidy Bibiana De La Ossa-Villadiego",
+      "institucion": "Universidad de Antioquia",
+      "anio": "2026",
+      "ancho_cm": null,
+      "alto_cm": null,
+      "descripcion": "",
+      "audio": "generado/audio/ODS3.21.mp3",
+      "modalidad": "Póster virtual",
+      "premio": "",
+      "placeholder": false,
+      "px_ancho": 5906,
+      "px_alto": 5906,
+      "paleta": [
+        "#fefffe",
+        "#dfe1de",
+        "#cad3c9",
+        "#f1f3f1",
+        "#5daa51"
+      ],
+      "img": {
+        "thumb": "generado/obras/512/ODS3.21.webp",
+        "full": "generado/obras/2048/ODS3.21.webp",
+        "zoom": "generado/obras/4096/ODS3.21.webp"
+      },
+      "ancho_m": 1,
+      "alto_m": 1,
+      "medidas_pendientes": true,
+      "audio_duracion": 279,
+      "atlas": 24
+    },
+    {
+      "id": "ODS3.23",
+      "sala": "planeta",
+      "ods": null,
+      "titulo": "Membranas electrohiladas de PLA y zeolita modificada con cobre como alternativa para la remoción de contaminantes acuáticos",
+      "autor": "Diana Carolina González-González, Valeria Morales-Rodríguez, Andrés Chávez-Almanza, Víctor Manuel Sánchez-Orendain, Juana Alvarado-Ibarra, Beatriz Guadalupe González-González",
+      "institucion": "Universidad de Sonora",
+      "anio": "2026",
+      "ancho_cm": null,
+      "alto_cm": null,
+      "descripcion": "",
+      "audio": "generado/audio/ODS3.23.mp3",
+      "modalidad": "Póster virtual",
+      "premio": "",
+      "placeholder": false,
+      "px_ancho": 5906,
+      "px_alto": 5906,
+      "paleta": [
+        "#fefefe",
+        "#dadcda",
+        "#eeefee",
+        "#66a264",
+        "#c1c9be"
+      ],
+      "img": {
+        "thumb": "generado/obras/512/ODS3.23.webp",
+        "full": "generado/obras/2048/ODS3.23.webp",
+        "zoom": "generado/obras/4096/ODS3.23.webp"
+      },
+      "ancho_m": 1,
+      "alto_m": 1,
+      "medidas_pendientes": true,
+      "audio_duracion": 290,
+      "atlas": 25
+    },
+    {
+      "id": "ODS3.35",
+      "sala": "planeta",
+      "ods": null,
+      "titulo": "Divergencia de índices geoquímicos multivariados en suelos de parques urbanos: un marco de zonificación ambiental en Caldas (Ant), Colombia",
+      "autor": "Juan David Correa, Andrea Tamayo, Juan Pablo Giraldo, Maria Clara Zuluaga, Julián Esteban Lopez",
+      "institucion": "Institución Universitaria Colegio Mayor de Antioquia · Colombia",
+      "anio": "2026",
+      "ancho_cm": null,
+      "alto_cm": null,
+      "descripcion": "",
+      "audio": "generado/audio/ODS3.35.mp3",
+      "modalidad": "Póster virtual",
+      "premio": "",
+      "placeholder": false,
+      "px_ancho": 5906,
+      "px_alto": 5906,
+      "paleta": [
+        "#fdfdfd",
+        "#d8e0d9",
+        "#eceeec",
+        "#aec9ae",
+        "#a09b68"
+      ],
+      "img": {
+        "thumb": "generado/obras/512/ODS3.35.webp",
+        "full": "generado/obras/2048/ODS3.35.webp",
+        "zoom": "generado/obras/4096/ODS3.35.webp"
+      },
+      "ancho_m": 1,
+      "alto_m": 1,
+      "medidas_pendientes": true,
+      "audio_duracion": 258,
+      "atlas": 26
+    },
+    {
+      "id": "ODS3.43",
+      "sala": "planeta",
+      "ods": null,
+      "titulo": "Corrección de sesgos en la precipitación de modelos climáticos globales mediante un enfoque de inteligencia artificial",
+      "autor": "Juliana Sánchez-Gil, Hernán D. Salas, Alejandro Builes-Jaramillo",
+      "institucion": "Instituto Tecnológico Metropolitano - ITM",
+      "anio": "2026",
+      "ancho_cm": null,
+      "alto_cm": null,
+      "descripcion": "",
+      "audio": "generado/audio/ODS3.43.mp3",
+      "modalidad": "Póster virtual",
+      "premio": "",
+      "placeholder": false,
+      "px_ancho": 5906,
+      "px_alto": 5906,
+      "paleta": [
+        "#fefefe",
+        "#d9dcd6",
+        "#edeeed",
+        "#b1c59e",
+        "#4fa250"
+      ],
+      "img": {
+        "thumb": "generado/obras/512/ODS3.43.webp",
+        "full": "generado/obras/2048/ODS3.43.webp",
+        "zoom": "generado/obras/4096/ODS3.43.webp"
+      },
+      "ancho_m": 1,
+      "alto_m": 1,
+      "medidas_pendientes": true,
+      "audio_duracion": 336,
+      "atlas": 27
+    },
+    {
+      "id": "ODS4.9",
+      "sala": "paz",
+      "ods": null,
+      "titulo": "Entre la gobernanza ambiental y las relaciones de poder. Estudio de caso: municipios de San Marcos, Majagual y Guaranda (Sucre)",
+      "autor": "Carolina Leguia Palomino, Ibelis Blanco-Rangel",
+      "institucion": "Universidad de San Buenaventura Cartagena · Colombia",
+      "anio": "2026",
+      "ancho_cm": null,
+      "alto_cm": null,
+      "descripcion": "",
+      "audio": "generado/audio/ODS4.9.mp3",
+      "modalidad": "Póster virtual",
+      "premio": "",
+      "placeholder": false,
+      "px_ancho": 3298,
+      "px_alto": 3298,
+      "paleta": [
+        "#fefefd",
+        "#d7dad8",
+        "#bcc7c3",
+        "#ecedec",
+        "#6aab65"
+      ],
+      "img": {
+        "thumb": "generado/obras/512/ODS4.9.webp",
+        "full": "generado/obras/2048/ODS4.9.webp",
+        "zoom": "generado/obras/4096/ODS4.9.webp"
+      },
+      "ancho_m": 1,
+      "alto_m": 1,
+      "medidas_pendientes": true,
+      "audio_duracion": 313,
+      "atlas": 28
+    },
+    {
+      "id": "ODS4.10",
+      "sala": "paz",
+      "ods": null,
+      "titulo": "Planeación territorial como campo de disputa: desarrollo regional sostenible en Antioquia",
+      "autor": "Gleidy Alexandra Urrego Estrada, Natalia Astrid Ramírez Hernández, Aurlin Cuesta Serna, Jahir Alexander Gutiérrez Ossa",
+      "institucion": "Institución Universitaria Colegio Mayor de Antioquia · Colombia",
+      "anio": "2026",
+      "ancho_cm": null,
+      "alto_cm": null,
+      "descripcion": "",
+      "audio": "generado/audio/ODS4.10.mp3",
+      "modalidad": "Póster virtual",
+      "premio": "",
+      "placeholder": false,
+      "px_ancho": 3298,
+      "px_alto": 3298,
+      "paleta": [
+        "#fefefe",
+        "#d4d7d4",
+        "#e9ebe9",
+        "#bcc8ba",
+        "#5ba95a"
+      ],
+      "img": {
+        "thumb": "generado/obras/512/ODS4.10.webp",
+        "full": "generado/obras/2048/ODS4.10.webp",
+        "zoom": "generado/obras/4096/ODS4.10.webp"
+      },
+      "ancho_m": 1,
+      "alto_m": 1,
+      "medidas_pendientes": true,
+      "audio_duracion": 114,
+      "atlas": 29
+    },
+    {
+      "id": "ODS4.11",
+      "sala": "paz",
+      "ods": null,
+      "titulo": "Análisis de la oferta turística accesible en los servicios turísticos del Barrio Laureles Medellín, Colombia",
+      "autor": "Tatiana Andrea Muñoz-Vélez, Natalia Cardona-Rodríguez, Tibani Zuleta-Correa",
+      "institucion": "Institución Universitaria Colegio Mayor de Antioquia · Colombia",
+      "anio": "2026",
+      "ancho_cm": null,
+      "alto_cm": null,
+      "descripcion": "",
+      "audio": "generado/audio/ODS4.11.mp3",
+      "modalidad": "Póster virtual",
+      "premio": "",
+      "placeholder": false,
+      "px_ancho": 5906,
+      "px_alto": 5906,
+      "paleta": [
+        "#fefefe",
+        "#cdd0cb",
+        "#dfe1de",
+        "#eff1ef",
+        "#74b56c"
+      ],
+      "img": {
+        "thumb": "generado/obras/512/ODS4.11.webp",
+        "full": "generado/obras/2048/ODS4.11.webp",
+        "zoom": "generado/obras/4096/ODS4.11.webp"
+      },
+      "ancho_m": 1,
+      "alto_m": 1,
+      "medidas_pendientes": true,
+      "audio_duracion": 309,
+      "atlas": 30
+    },
+    {
+      "id": "ODS4.13",
+      "sala": "paz",
+      "ods": null,
+      "titulo": "Análisis bibliométrico de la gestión del riesgo en ingeniería en Latinoamérica",
+      "autor": "Camilo Andrés Torres Alzate, Kellys Salcedo Hurtado, Leyla Yamile Jaramillo Zapata, Luis Fernando Gómez Echeverri",
+      "institucion": "Tecnológico de Antioquia I.U. · Facultad de Ingeniería · Colombia",
+      "anio": "2026",
+      "ancho_cm": null,
+      "alto_cm": null,
+      "descripcion": "",
+      "audio": "generado/audio/ODS4.13.mp3",
+      "modalidad": "Póster virtual",
+      "premio": "",
+      "placeholder": false,
+      "px_ancho": 3298,
+      "px_alto": 3298,
+      "paleta": [
+        "#fefefe",
+        "#d9ddd9",
+        "#edefee",
+        "#bdcabf",
+        "#67a967"
+      ],
+      "img": {
+        "thumb": "generado/obras/512/ODS4.13.webp",
+        "full": "generado/obras/2048/ODS4.13.webp",
+        "zoom": "generado/obras/4096/ODS4.13.webp"
+      },
+      "ancho_m": 1,
+      "alto_m": 1,
+      "medidas_pendientes": true,
+      "audio_duracion": 212,
+      "atlas": 31
+    }
+  ],
+  "avisos": [
+    {
+      "tipo": "aviso",
+      "msg": "POSTERS/Poster\\DIMENSIÓN 2\\ODS2.24\\ODS2.24 Poster Leal-Soto et al - UNISON.jpg: el código ODS2.24 no está en obras.csv, se ignora."
+    },
+    {
+      "tipo": "aviso",
+      "msg": "POSTERS/Poster\\DIMENSIÓN 2\\ODS2.24\\ODS2.24 Presentación de Cartel-Poster Leal-Soto et al UNISON.mp4: el código ODS2.24 no está en obras.csv, se ignora."
+    },
+    {
+      "tipo": "aviso",
+      "msg": "Dimensión V · Alianzas: sin pósteres."
+    },
+    {
+      "tipo": "pendiente",
+      "msg": "32 pósteres sin medidas reales (ancho_cm/alto_cm); se usa el formato de la plantilla (100 × 100 cm)."
+    },
+    {
+      "tipo": "pendiente",
+      "msg": "Textos del lobby pendientes: jurado."
+    }
+  ]
+}
