@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover" />
   <title>Bosque ODS · 4.º Congreso Internacional ODS</title>
-  <meta name="description" content="4.º Congreso Internacional de Objetivos de Desarrollo Sostenible — cinco arquitecturas escondidas en un bosque, pósteres por ODS y conferencias en vivo" />
+  <meta name="description" content="4.º Congreso Internacional de Objetivos de Desarrollo Sostenible — cinco arquitecturas escondidas en un bosque, pósteres por ODS y un mirador sobre el dosel" />
   <meta name="theme-color" content="#0f2427" />
   <!-- miniatura: rueda de los 17 ODS (la generan scripts/icono.mjs → npm run icono) -->
   <link rel="icon" href="./favicon.svg" type="image/svg+xml" />
@@ -14,7 +14,7 @@
   <!-- vista previa al compartir el enlace -->
   <meta property="og:type" content="website" />
   <meta property="og:title" content="Bosque ODS · 4.º Congreso Internacional ODS" />
-  <meta property="og:description" content="Recorre el bosque virtual del 4.º Congreso Internacional de Objetivos de Desarrollo Sostenible: 44 pósteres y conferencias en vivo." />
+  <meta property="og:description" content="Recorre el bosque virtual del 4.º Congreso Internacional de Objetivos de Desarrollo Sostenible: 32 pósteres y un mirador sobre el dosel." />
   <meta property="og:image" content="./miniatura-compartir.png" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
@@ -23,10 +23,11 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <!-- Identidad Bosque ODS: Sora (títulos), Figtree (texto e interfaz) y Space Grotesk (etiquetas y números) -->
   <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Figtree:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
-  
+  <script type="module" crossorigin src="./assets/index-E7gKNqRK.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-D6UFExZN.css">
 </head>
-<body class="en-menu previa">
-  <div class="previa-fondo" aria-hidden="true"></div>
+<body class="en-menu">
+  <canvas id="escena" aria-hidden="true"></canvas>
 
   <!-- Animación de carga: chispas de los 17 ODS llegan en espiral desde los bordes y arman la rueda; mientras el
        bosque carga, la rueda gira con 17 satélites y un aro marca el avance real. Todo con animaciones CSS (siguen
@@ -96,6 +97,55 @@
 
   <div id="menu-inicio" hidden role="dialog" aria-label="Menú de inicio"></div>
 
-  <script type="module" src="./previa.js"></script>
+  <header id="hud" hidden>
+    <div class="marca">
+      <strong><span class="num">4.º</span> Congreso <em>ODS</em></strong>
+      <span>el bosque de las cinco dimensiones</span>
+    </div>
+    <div id="zona" aria-live="polite"></div>
+    <nav class="acciones" aria-label="Accesos rápidos">
+      <button data-accion="mapa" title="Mapa (M)">Mapa</button>
+      <button data-accion="indice" title="Índice de pósteres (I)">Índice</button>
+      <button data-accion="info" title="Información del congreso">Información</button>
+      <button data-accion="guiado" title="Recorrido guiado (G)">Recorrido guiado</button>
+      <button data-accion="aerea" title="Vista aérea (V)">Vista aérea</button>
+      <button data-accion="galeria" title="Solo galería">Solo galería</button>
+      <button data-accion="movimiento" aria-pressed="false" title="Pausar o reanudar las animaciones del bosque">Pausar animaciones</button>
+      <button data-accion="silencio" aria-pressed="false" title="Silencio">Silencio</button>
+    </nav>
+  </header>
+
+  <div id="aviso-greybox" hidden></div>
+  <button id="subir-cima" hidden type="button"></button>
+  <div id="etiqueta" aria-hidden="true"></div>
+  <div id="ayuda" hidden></div>
+
+  <aside id="ficha" hidden aria-live="polite"></aside>
+
+  <section id="panel" class="panel" hidden role="dialog" aria-modal="true">
+    <div class="panel-cabeza"><h2 id="panel-titulo"></h2><button class="cerrar" data-cerrar aria-label="Cerrar">×</button></div>
+    <div id="panel-cuerpo" class="panel-cuerpo"></div>
+  </section>
+
+  <div id="reproductor" hidden role="region" aria-label="Audio explicativo del póster"></div>
+
+  <div id="visor" hidden role="dialog" aria-label="Visor de póster">
+    <div id="visor-osd"></div>
+    <div class="visor-barra">
+      <span id="visor-titulo"></span>
+      <button data-visor="menos" aria-label="Alejar">−</button>
+      <button data-visor="mas" aria-label="Acercar">+</button>
+      <button data-visor="ajustar">Ajustar</button>
+      <button data-visor="cerrar">Cerrar (Esc)</button>
+    </div>
+  </div>
+
+  <div id="estuche" hidden></div>
+  <div id="grano" aria-hidden="true"></div>
+  <p id="credito" class="credito" hidden>experiencia virtual hecha por <span>David Volkmar Velez</span></p>
+
+  <div id="joystick" hidden><div id="joystick-pomo"></div></div>
+  <button id="saltar" hidden aria-label="Saltar">Saltar</button>
+
 </body>
 </html>

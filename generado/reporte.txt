@@ -1,0 +1,11 @@
+BOSQUE ODS — reporte de preparación
+Pósteres en obras.csv: 32 · originales encontrados: 32 · provisionales: 0
+
+AVISOS (3)
+  · POSTERS/Poster\DIMENSIÓN 2\ODS2.24\ODS2.24 Poster Leal-Soto et al - UNISON.jpg: el código ODS2.24 no está en obras.csv, se ignora.
+  · POSTERS/Poster\DIMENSIÓN 2\ODS2.24\ODS2.24 Presentación de Cartel-Poster Leal-Soto et al UNISON.mp4: el código ODS2.24 no está en obras.csv, se ignora.
+  · Dimensión V · Alianzas: sin pósteres.
+
+PENDIENTES DE CONTENIDO (2)
+  · 32 pósteres sin medidas reales (ancho_cm/alto_cm); se usa el formato de la plantilla (100 × 100 cm).
+  · Textos del lobby pendientes: jurado.
